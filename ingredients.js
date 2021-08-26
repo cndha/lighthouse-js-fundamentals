@@ -10,10 +10,6 @@ for (let i = 0; i < ingredients.length; i++) {
   console.log(ingredients[i]);
 }
 
-
-for (let i = 0; i < ingredients.length; i++) {
-  ingredients.reverse();
+for (let i = 7; i >= 0; i--) {
   console.log(ingredients[i]);
 }
-// cannot be: console.log(ingredients[i].reverse()) 
-// prints too many times if console.log(ingredients.reverse())
